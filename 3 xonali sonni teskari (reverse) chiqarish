@@ -1,0 +1,13 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main()
+{
+int a,b,c,d,e,f;
+cout<<"uch xonali sonni kiriting->";
+cin>>a;
+b=a/100; c=a-b*100; d=c/10; e=c-d*10;
+f=b+10*d+100*e;
+cout<<"teskari son= "<<f;
+return 0;
+}
